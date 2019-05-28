@@ -13,13 +13,13 @@ $palettes: (
     ),
     button: (
         background: #555,
-        background--highlight: #efe778,
+        background--highlight: #000,
         background--hover: darken(#555, 10%),
         background--danger: #f10,
         background--danger-hover: darken(#f10, 10%),
         background--highlight-hover: darken(#efe778, 10%),
         color: #fff,
-        color--highlight: #222,
+        color--highlight: #fff,
     ),
     error: (
         color: #f10,
@@ -58,7 +58,7 @@ $palettes: (
     ),
     header: (
         background: #ffffff,
-        background--highlight: #111,
+        background--highlight: #ffffff,
         color: #111,
         label-color: #999
     ),

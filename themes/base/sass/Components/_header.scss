@@ -31,7 +31,7 @@ $_header-total-height: 38px;
     @media #{$mq-medium} {
         color: palette(header, color);
         //height: $_header-height;
-        padding: 0;
+        //padding: 0;
         text-align: center;
     }
 }
@@ -99,16 +99,16 @@ $_header-total-height: 38px;
 }
 
 .snip-header__total {
-    background: palette(header, background--highlight);
-    border-radius: 5px;
+    //background: palette(header, background--highlight);
+    //border-radius: 5px;
     display: inline-block;
-    padding: .5em;
+   // padding: .5em;
 
     @media #{$mq-medium} {
-        height: $_header-total-height;
-        line-height: $_header-total-height;
+        //height: $_header-total-height;
+        //line-height: $_header-total-height;
         margin-top: 2.188em;
-        padding: 0 .625em;
+        //padding: 0 .625em;
     }
 }
 
