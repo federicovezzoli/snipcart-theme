@@ -137,6 +137,7 @@ $_notice-error--text-color: palette(static, color--highlight);
     font-size: fontsize(table, small);
     padding: 1em 2em;
     text-transform: uppercase;
+    display: none;
 
     ~ .snip-table__header {
         border-top: $_table-border;

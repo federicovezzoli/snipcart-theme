@@ -21,8 +21,8 @@ $_layout-content-border: 1px solid palette(layout, content-border);
 
 .snip-layout__main-container {
     background: palette(layout, background);
-    margin: 0 auto;
-    max-width: 62.25em;
+    margin: 0 0 0 auto;
+    max-width: 42.25em;
     position: relative;
 }
 

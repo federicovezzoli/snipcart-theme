@@ -30,7 +30,7 @@ $_header-total-height: 38px;
 
     @media #{$mq-medium} {
         color: palette(header, color);
-        height: $_header-height;
+        //height: $_header-height;
         padding: 0;
         text-align: center;
     }
@@ -90,10 +90,11 @@ $_header-total-height: 38px;
     @media #{$mq-medium} {
         display: block;
         font-size: fontsize(header, large);
-        left: 1.25em;
-        line-height: $_header-height;
-        position: absolute;
-        text-align: left;
+        //left: 1.25em;
+        font-weight: 400;
+        //line-height: $_header-height;
+        //position: absolute;
+        //text-align: left;
     }
 }
 
